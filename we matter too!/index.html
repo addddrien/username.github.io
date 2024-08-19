@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Matter Too! Foundation</title>
+    <style>
+        :root {
+            --primary-color: #2ecc71;
+            --secondary-color: #27ae60;
+            --dark-color: #2c3e50;
+            --light-color: #ecf0f1;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-color);
+            color: var(--dark-color);
+        }
+
+        header {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1rem;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--dark-color);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: var(--light-color);
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: var(--primary-color);
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: var(--dark-color);
+        }
+
+        button {
+            background-color: var(--primary-color);
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: var(--secondary-color);
+        }
+
+        footer {
+            background-color: var(--dark-color);
+            color: var(--light-color);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #about ul {
+            padding-left: 20px;
+        }
+
+        .disease-item {
+            display: flex;
+            align-items: start;
+            margin-bottom: 20px;
+        }
+
+        .disease-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .disease-item {
+                flex-direction: column;
+            }
+
+            .disease-item img {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <span class="logo-text">WMT</span>
+            </div>
+            <h1>We Matter Too! Foundation</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#donate">Donate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to We Matter Too! Foundation</h2>
+            <p>We are dedicated to improving the lives of elderly individuals. Our mission is to provide support, care, and resources to enhance their quality of life.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>The We Matter Too! Foundation is a non-profit organization dedicated to raising donations from around the world for the care of seniors and dedicated to sanctioning people who commit acts of violence or neglect against seniors. Our goals include ending:</p>
+            
+            <div class="disease-item">
+                <img src="https://imgs.search.brave.com/_2JoTslvwMqg9fE2KVb6VG1oMs0hwr1hwR9EF0kRczo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/YXNzZXRzLWV1LmZy/b250aWZ5LmNvbS9z/My9mcm9udGlmeS1l/bnRlcnByaXNlLWZp/bGVzLWV1L2V5SndZ/WFJvSWpvaWFXaG9M/V2hsWVd4MGFHTmhj/bVV0WW1WeWFHRmtY/QzltYVd4bFhDODNW/bVZ3V2pSNWNYbzNi/VlpPVlc1ek5uZEVR/UzVxY0djaWZROmlo/aC1oZWFsdGhjYXJl/LWJlcmhhZDpKVGJD/eFluUERhM0JfXzNI/VzYtX0pQU2hxbXFK/N0N6RzExM2RnNlJH/U3o0P2Zvcm1hdD13/ZWJw" alt="Chronic diseases">
+                <p><strong>Chronic diseases:</strong> such as osteoarthritis, diabetes, hypertension and high cholesterol, which can affect their quality of life and autonomy.</p>
+            </div>
+
+            <div class="disease-item">
+                <img src="https://imgs.search.brave.com/CAos839I6SqcdFP4KaAnEVAmd93UNyd12idtswp5pBE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb25l/c3Rhcm5ldXJvbG9n/eS5uZXQvd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDUvMS1I/b3ctaXMtQWx6aGVp/bWVycy1UcmVhdGVk/LVdoYXQtWW91LU5l/ZWQtdG8tS25vdy0y/NjJ4MjAxLmpwZw" alt="Neurological diseases">
+                <p><strong>Neurological diseases:</strong> such as Alzheimer's and Parkinson's, which can cause loss of memory, motor skills and cognitive abilities.</p>
+            </div>
+
+            <div class="disease-item">
+                <img src="https://imgs.search.brave.com/SGxYs3DY7DVapIWTIEhdKJFx2oTmMolnv1GOn99lVgI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzI3Lzk5LzY5/LzM2MF9GXzUyNzk5/NjkyNV9UUWRDVVBS/aEk4NXFhdmVoNmUz/QkVYRHpndnlkaUFK/eC5qcGc" alt="Myocardial infarction">
+                <p><strong>Myocardial infarction:</strong> considered one of the main causes of death in older people, it is important to detect early symptoms, such as pain in the chest, arm or abdomen.</p>
+            </div>
+
+            <div class="disease-item">
+                <img src="https://imgs.search.brave.com/ELWeX9tYKYMzZg5Z_1W_0lutDaV-5mcFmz7vx7k4xnw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2RjLmdvdi9zb2Np/YWwtY29ubmVjdGVk/bmVzcy9tZWRpYS9p/bWFnZXMvU29jaWFs/Q29ubmVjdGVkbmVz/c19Jc29sYXRpb24u/anBn" alt="Social isolation and loneliness">
+                <p><strong>Social isolation and loneliness:</strong> can seriously affect the mental health of older people, which can lead to depression, anxiety and other disorders.</p>
+            </div>
+
+            <div class="disease-item">
+                <img src="https://imgs.search.brave.com/CJwC1_b4GQT9LraMLjmwzKp6yWlstH9Q07d-qACDYfw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbmp1/cnlmYWN0cy5uc2Mu/b3JnL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE2LzA2L2FsbF9p/bmp1cmllc19ob21l/LTEuanBn" alt="Injuries">
+                <p><strong>Injuries:</strong> such as blows to the head, which can be common in older people and require immediate medical attention.</p>
+            </div>
+
+            <div class="disease-item">
+                <img src="https://imgs.search.brave.com/DmnfJgaH7ehnN717KTjOkhbbS6ufBkuwa4QauRsY8lE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9iZXR0/ZXJoZWFsdGh3aGls/ZWFnaW5nLm5ldC93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxOC8w/OC9EZXBvc2l0cGhv/dG9zMTk1NjQxNTNt/LTIwMTUtYnJhaW4t/Z2VhcnMtd29vZGVu/LWhlYWQtY29tcHJl/c3Nvci0zMDB4Mjk4/LmpwZw" alt="Cognitive changes">
+                <p><strong>Cognitive changes:</strong> such as decreased memory and ability to concentrate, which can affect your ability to make decisions and perform everyday tasks.</p>
+            </div>
+            
+            <h3>Our Team</h3>
+            <ul>
+                <li>Steven Rojas - CEO</li>
+                <li>Ashton Forest - Director of Operations</li>
+                <li>Ray William Johnson - Medical Advisor</li>
+                <li>Jh de la Cruz - Volunteer Coordinator</li>
+            </ul>
+
+            <h3>Our Values</h3>
+            <ul>
+                <li>Compassion: We approach our work with empathy and understanding.</li>
+                <li>Integrity: We maintain the highest ethical standards in all our activities.</li>
+                <li>Innovation: We continuously seek new ways to improve our services.</li>
+                <li>Collaboration: We work closely with healthcare providers, families, and communities.</li>
+            </ul>
+
+            <h3>Our Impact</h3>
+            <p>Since our foundation in 2010, we have:</p>
+            <ul>
+                <li>Assisted over 10,000 elderly individuals</li>
+                <li>Provided 50,000+ hours of care</li>
+                <li>Trained 500 caregivers</li>
+                <li>Established partnerships with 30 healthcare facilities</li>
+            </ul>
+        </section>
+
+        <section id="donate">
+            <h2>Make a Donation</h2>
+            <p>Your contribution can make a significant difference in the lives of elderly individuals in need. Every donation, no matter the size, helps us continue our mission.</p>
+            <button>Donate Now</button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for more information or to learn how you can get involved.</p>
+            <!-- Aquí puedes añadir un formulario de contacto o información de contacto -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 We Matter Too! Foundation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
